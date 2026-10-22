@@ -1,0 +1,16 @@
+create
+insert 0 1
+insert 0 3
+insert 0 5
+extract-min 0
+create
+insert 1 2
+insert 1 4
+insert 1 6
+merge 0 1
+decrease-key 2 5 1
+extract-min 2
+extract-min 2
+extract-min 0
+extract-min 0
+extract-min 0
